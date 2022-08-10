@@ -56,4 +56,4 @@ const apptwo = (
   )
 )
 export default App
-ReactDOM.render(<apptwo />, document.getElementById('root'))
+ReactDOM.render(apptwo, document.getElementById('root'))
