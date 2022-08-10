@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate the Present Value of a Loan</title>
+    <h1>Calculate the Present Value of a Loan</h1>
+</head>
+<h2><a href="https://finsee.info">Home</a></h2>
+<body>
+    <label id="aLabel">Future Value: ($)</label><br>
+    <input type="text" id="FVTextBox"><br>
+    <label id="bLabel">Interest Rate: (%)</label><br>
+    <input type="text" id="IRTextBox"><br>
+    <label id="bLabel">Number of Years</label><br>
+    <input type="text" id="YearTextBox"><br>
+    <button type="button" id="submitButton" onclick="javascript:PVSimple();">submit</button><br><br>
+    <label id="PVLabel"></label><br>
+    <canvas id="PVSimpleChart" height="200" width="200"></canvas> 
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+    <script src="/js/PV.js"></script>
+</body>
+</html>
