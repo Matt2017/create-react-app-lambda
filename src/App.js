@@ -44,7 +44,7 @@ class App extends Component {
     )
   }
 }
-const apptwo = (
+function apptwo() {
   return(
       <div className="App">
         <h2>Testing PV</h2>
@@ -54,6 +54,6 @@ const apptwo = (
         </ul>
       </div>
   )
-)
+}
 export default App
-ReactDOM.render(apptwo, document.getElementById('root'))
+ReactDOM.render(<apptwo />, document.getElementById('root'))
